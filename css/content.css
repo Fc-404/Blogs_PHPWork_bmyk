@@ -1,0 +1,49 @@
+
+#new_title, #new_content{
+	text-align: center;
+	padding: 20px;
+}
+#new_title input, #new_content textarea{	
+	width: 100%;
+	border-radius: 12px;
+	border: none;
+	background: rgba(0, 0, 0, .2);
+}
+#new_title input{
+	text-align: center;
+}
+#new_content textarea{
+	resize: none;
+	height: 600px;
+}
+#comeOut{
+	text-align: center;
+	background: rgba(0, 187, 255, .6);
+}
+#content #comeOut:hover{
+	background: #0bf;
+	color: white;
+}
+
+#new_clue{
+	font-size: 16px;
+	line-height: 20px;
+	padding: 20px; 
+	font-style: italic; 
+	color: #666;
+}
+#new_clue div{
+	padding: 3px 6px;
+	font-size: 12px;
+	line-height: 16px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 12px;
+	background: #0bf;
+	color: black;
+}
+#new_clue div:hover{
+	background: red;
+	color: white;
+}

@@ -1,0 +1,18 @@
+/*时间模块css*/
+#timeFrame {
+	user-select: none;
+	-webkit-user-select: none;
+}
+#timeFrame p{
+	text-align: center;
+}
+#timeFrame .color{
+	margin: 0 5px;
+	padding: 0 8px;
+	border-radius: 12px;
+	background: #FFF;
+	color: #0bf;
+}
+#timeFrame .color:hover{
+	background: rgba(255, 255, 255, .6);
+}

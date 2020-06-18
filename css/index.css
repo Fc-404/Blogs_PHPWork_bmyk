@@ -1,0 +1,166 @@
+/* CSS Document */
+html, body {
+	width: 100%;
+	height: 100%;
+	max-height: 2048px;
+	max-width: 4096px;
+	min-height: 600px;
+	min-width: 1200px;
+}
+body {
+	background-image: url(../img/meinv002.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#canvas {
+	width: 90%;
+	min-height: calc(100% - 50px);
+	margin: 0 auto;
+}
+#head {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 48px;
+	z-index: 100;
+}
+#BRAND {
+	display: inline-block;
+	float: left;
+	width: 120px;
+	max-width: 200px;
+	border-radius: 12px 0 0 12px;
+	background: #0BF;
+	text-align: center;
+}
+#sundry {
+	vertical-align: top;
+	position: relative;
+	position: sticky;
+	left: 0;
+	display: inline-block;
+	min-height: 200px;
+	width: calc(30% - 10px);
+}
+#sundry .dimDiv{
+	margin: 0 0 20px 0;
+}
+#content {
+	vertical-align: top;
+	position: relative;
+	left: 20px;
+	display: inline-block;
+	min-height: 400px;
+	width: calc(70% - 10px);
+}
+#content .dimDiv{
+	user-select: none;
+	-webkit-user-select: none;
+	margin: 0 0 20px 0;
+}
+#newBlog {
+	position: sticky;
+	top: 68px;
+	z-index: 10;
+	background: rgba(0, 187, 255, .5); 
+	text-align: center; 
+	padding: 12px;
+}
+#content #newBlog:hover {
+	background: #0bf;
+	color: white;
+}
+
+#goTop {
+	display: none;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: fixed;
+	right: 80px;
+	bottom: 80px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: black;
+	line-height: 20px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+#goTop:hover {
+	background: #0bf;
+	color: white;
+}
+
+#end {
+	width: 100%;
+	height: 50px;
+}
+
+#head {
+	user-select: none;
+	-webkit-user-select: none;
+}
+#head #user {
+	height: 100%;
+	width: 160px;
+	float: right;
+}
+#head #user span {
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+}
+#head #user span:nth-child(2){
+	border-radius: 0 12px 12px 0;
+}
+#head #user span:hover {
+	background: #0BF;
+}
+
+#head #navigation{
+	height: 100%;
+	float: left;
+}
+#head #navigation span{
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+}
+#head #navigation span:hover {
+	background: #0BF;
+}
+#head #navigation form{
+	display: inline-block;
+}
+#head #navigation form input{
+	border: none;
+	height: 32px;
+	border-radius: 10px;
+	padding: 0 5px;
+}
+#head #navigation form input:nth-child(2){
+	font-size: 18px; 
+	line-height: 18px;
+	height: 32px;
+	padding: 0 10px;
+	position: relative;
+	top: -2px;
+	background: rgba(0, 0, 0, .2);
+}
+#head #navigation form input:nth-child(2):hover{
+	background: #0BF;
+}
+#sundry .dimDiv:hover, #content .dimDiv:hover{
+	background: rgba(170, 238, 255, .5);
+}
+
+#page_on, #page_down{
+	text-align: center;
+	background: rgba(0, 187, 255, .6);
+}
+#content #page_on:hover, #content #page_down:hover{
+	background: #0bf;
+	color: white;
+}

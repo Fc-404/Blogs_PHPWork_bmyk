@@ -1,0 +1,52 @@
+/*日历功能css*/
+#cldFrame{
+	user-select: none;
+	-webkit-user-select: none;
+    position: relative;
+    width: 100%;
+}
+#cldFrame #cldBody{
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+#cldFrame #top{
+    position: relative;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#cldFrame #topDate{
+    font-size: 30px;
+}
+#cldFrame .curDate{
+    color: #0BF;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 12px;
+    font-weight: bold;
+}
+#cldFrame #week td{
+    font-size: 15px;
+}
+#cldFrame td{
+    width: 160px;
+	height: 60px;
+    text-align: center;
+    font-family: Simsun;
+    font-size: 20px;
+}
+#cldFrame #left, #cldFrame #right{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+	border-radius: 12px;
+}
+#cldFrame #left{left: 0px;}
+#cldFrame #right{right: 0px;}
+#cldFrame #left:hover, #cldFrame #right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#cldFrame .isDate:hover, #cldFrame .curDate:hover{
+	border-radius: 12px;
+	background: rgba(255, 255, 255, 0.6);
+}

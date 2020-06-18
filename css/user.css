@@ -1,0 +1,73 @@
+/*用户页面css*/
+#userSign{
+	width: 100%;
+	height: auto;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#userSign p {
+	text-align: center;
+}
+#userSign form {
+	width: 100%;
+	height: 100%;
+}
+#userPassFar, #userNameFar{
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+#userPassInfo, #userNameInfo{
+	position: absolute;
+	left: 350px;
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	color: red;
+}
+#userPassFar input, #userNameFar input, .myinput{
+	height: 40px;
+	width: 250px;
+	border: none;
+	padding: 0 5px;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 12px;
+}
+#userSubmit{
+	width: 250px;
+	border: none;
+	background-color: rgba(255, 255, 255, .6);
+	border-radius: 12px;
+}
+#userSubmit:hover {
+	background: #0BF;
+}
+#userSubmitFar{
+	margin: 0 auto;
+	width: 250px;
+}
+
+#homepage {
+	width: 100%;
+	height: auto;
+	user-select: none;
+	-webkit-user-select: none;
+}
+#homepage div{
+	padding: 50px 20px;
+}
+#homepage div span {
+	display: inline-block;
+	font-size: 20px;
+}
+
+#homepage #userDel{
+	background: rgba(255, 0, 0, .4);
+	display: block;
+	margin: 0 auto;
+}
+#homepage #userDel:hover{
+	background: #f00;
+}
